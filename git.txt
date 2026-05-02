@@ -1,17 +1,18 @@
 //Documentacion de uso de versiones en git con github
 
 //configuramos con los siguientes comandos y nombres para que cada cambio
-//guardado quede asociado a este nombre y correo debe ser el mismo que usamos en github
+//guardado quede asociado a este nombre y correo, debe ser el mismo que usamos en github
+//La variable global especifica que es para todos los proyectos
 
 git config --global user.name -----
 git config --global user.email -----
 
-//La variable global especifica que es para todos los proyectos
+
 //Con el siguiente comando verificamos que las credenciales esten correctas
+//deberia aparecernos nuestras credenciales
 
 git config --global --list 
 
-//deberia aparecernos nuestras credenciales
 
 //Conectamos nuestro proyecto local con github 
 //remoto algo externo add agregar y origin 
@@ -30,7 +31,7 @@ git init
 
 git add .
 
-//agregamos el archivo especifico
+//lo mismo pero agregamos el archivo especifico
 
 git add -----
 
@@ -49,6 +50,30 @@ git branch -M -----
 
 git push -u origin main 
 
+
+
+//buenas practicas
+//push=enviar, origin=a donde, main=que rama, -u=guardar conexion para el futuro
+
+Carpeta → (git init)
+Archivos → (git add)
+Versión → (git commit)
+Rama → (git branch)
+Internet → (git remote)
+Subir → (git push)
+
+init → activar Git
+add → preparar cambios
+commit → guardar versión
+branch → nombrar tu historia
+remote → conectar a GitHub
+push → subir código
+
+feat: → nueva funcionalidad
+fix: → corrección de errores
+docs: → documentación
+style: → formato (espacios, comas, etc.)
+refactor: → mejoras internas sin cambiar comportamiento
 
 
 
