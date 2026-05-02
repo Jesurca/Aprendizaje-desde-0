@@ -75,10 +75,18 @@ docs: → documentación
 style: → formato (espacios, comas, etc.)
 refactor: → mejoras internas sin cambiar comportamiento
 
+//RAMAS o BRANCH 
+//Las ramas son como si hicieramos otras carpetas con una copia de nuestro trabajo
+//el cual es totalmente independiente y si es el caso podemos experimentar
 
 
+//Con este comando cambiamos de rama 
 
+git checkout nombre-rama
 
+//con este vemos las ramas creadas en el repositorio
+
+git branch
 
 
 
