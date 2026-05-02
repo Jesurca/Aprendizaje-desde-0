@@ -114,8 +114,9 @@ git push
 git log --oneline --decorate -5
 
 
-//con este vemos las ramas creadas en el repositorio
+//con este vemos en que rama estamos ubicados
 
+git branch -a
 git branch
 
 
@@ -123,14 +124,7 @@ git branch
 
 git remote -v
 
-
-//Ver ramas 
-
-git branch -a
-
 //Ver commits existentes
 
 git reflog
 
-
-//
