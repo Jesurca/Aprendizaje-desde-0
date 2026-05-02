@@ -84,9 +84,32 @@ refactor: → mejoras internas sin cambiar comportamiento
 
 git checkout nombre-rama
 
+
+//Con este comando cambiamos de rama y creamos la rama
+
+git checkout -b nueva-rama
+git switch -c feature-login
+
+
 //con este vemos las ramas creadas en el repositorio
 
 git branch
 
+//traer los cambios desde GitHub
 
+git pull origin main
+
+//Los - en Git no son comandos Son “modificadores” del comando principal
+
+//Git abre un editor de texto para escribir el mensaje.
+
+-m = message
+
+//“recuerda esta rama y este remoto como predeterminados”
+
+-u = --set-upstream
+
+//Después de usarlo una vez, puedes hacer:
+
+git push
 
