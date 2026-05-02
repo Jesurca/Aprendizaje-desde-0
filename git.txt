@@ -34,6 +34,22 @@ git add .
 
 git add -----
 
+//Guardamos una version del proyecto Y agregamos un mensaje con ""
+//Solo se agregara lo selecionado en el git add
+
+git commit -m "------"
+
+//Con branch creamos ramas independientes de nuestros proyectos Por lo general se usa main,
+//aunque se le puede poner cualquier nombres, mas se debe evitar los espacios y caracteres especiales
+
+git branch -M -----
+
+//Subimos nuestro codigo con push y le damos el origen 
+//de la rama que creamos o selecionamos es este caso main
+
+git push -u origin main 
+
+
 
 
 
