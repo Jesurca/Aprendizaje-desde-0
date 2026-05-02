@@ -91,10 +91,6 @@ git checkout -b nueva-rama
 git switch -c feature-login
 
 
-//con este vemos las ramas creadas en el repositorio
-
-git branch
-
 //traer los cambios desde GitHub
 
 git pull origin main
@@ -113,3 +109,28 @@ git pull origin main
 
 git push
 
+//verificacion de historial local
+
+git log --oneline --decorate -5
+
+
+//con este vemos las ramas creadas en el repositorio
+
+git branch
+
+
+//Confirmamos a que remoto este haciendo push
+
+git remote -v
+
+
+//Ver ramas 
+
+git branch -a
+
+//Ver commits existentes
+
+git reflog
+
+
+//
