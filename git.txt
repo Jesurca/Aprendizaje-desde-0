@@ -1,0 +1,43 @@
+//Documentacion de uso de versiones en git con github
+
+//configuramos con los siguientes comandos y nombres para que cada cambio
+//guardado quede asociado a este nombre y correo debe ser el mismo que usamos en github
+
+git config --global user.name -----
+git config --global user.email -----
+
+//La variable global especifica que es para todos los proyectos
+//Con el siguiente comando verificamos que las credenciales esten correctas
+
+git config --global --list 
+
+//deberia aparecernos nuestras credenciales
+
+//Conectamos nuestro proyecto local con github 
+//remoto algo externo add agregar y origin 
+
+                 //(Aqui va el link del repositorio)
+git remote add origin -------------------------
+
+
+//Convierte y crea tu carpeta local en una .git para que ahora 
+//puedas guardar versiones, detectar cambios y manejar historial
+
+git init
+
+//agregamos o selecionamos TODOS para preaparalos
+//Como si los metieramos a una caja
+
+git add .
+
+//agregamos el archivo especifico
+
+git add -----
+
+
+
+
+
+
+
+
